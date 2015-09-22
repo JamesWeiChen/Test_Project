@@ -1,0 +1,35 @@
+
+\documentclass{article}
+
+\usepackage[colorlinks=true]{hyperref} % For hyperlinks in the PDF
+\hypersetup{colorlinks, citecolor=black, linkcolor=red, urlcolor=blue, breaklinks}
+
+\usepackage{graphicx} % Required for including images
+\graphicspath{{../input/}} % Location of the graphics files
+\usepackage{epstopdf}
+\epstopdfsetup{update,prepend} % only regenerate pdf files when eps file is newer
+
+
+\title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{Pupil in the Feedback Screen}} % Article title
+%(One-sentence summaries)
+\author{
+\large
+\textsc{James Wei Chen}\thanks{\href{mailto:chen.2731@osu.edu}{chen.2731@osu.edu}}\\[2mm] % Your name
+\normalsize The Ohio State University \\ % Your institution
+\normalsize Department of Economics
+\vspace{3mm}
+}
+
+\begin{document}
+
+\maketitle % Insert title
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.8\linewidth]{Pupil_in_feedback_scr.eps}
+\caption{Pupil in the Feedback Screen}\label{pifs}
+\end{figure}
+
+Figure \ref{pifs} is a good figure.
+
+\end{document}

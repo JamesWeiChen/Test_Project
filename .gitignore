@@ -41,3 +41,15 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.eps
+*.pdf
+*.synctex
+*.mat
+*.aux
+*.bbl
+*.blg
+*.log
+*.xlsx
+*.xls
+*.out
+build/input/03261441.xls
